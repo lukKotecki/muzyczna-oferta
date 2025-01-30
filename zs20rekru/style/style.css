@@ -1,0 +1,200 @@
+
+body {
+    height: 200vh;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+[id] {
+    scroll-margin-top: 84px;
+}
+
+@media (min-width: 992px) {
+    [id] {
+        scroll-margin-top: 69px;
+    }
+}
+
+/*NAWIGACJA*/
+.nav-links-style {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-size: 1.2rem;
+}
+
+.fa-solid {
+    margin-right: 5px;
+}
+
+/*HOME*/
+
+
+.home-section {
+   padding-top: 140px;
+
+}
+
+.home-logo {
+     justify-content: center;
+    align-content: center;
+}
+
+.home-text {
+    font-weight: 700;
+    color: darkslategrey;
+    padding-bottom: 5vh;
+}
+
+
+
+.carousel {
+
+    margin: auto;
+    border-radius: 20%;
+    width: 85%;
+    max-width: 1400px;
+    height: auto;
+    max-height: 70%;
+}
+
+
+/*ABOUT US*/
+.card-i {
+    font-size: 3rem;
+}
+
+.card-title {
+    text-transform: uppercase;
+    padding: 2px;
+    border-bottom: 2px white solid;
+}
+
+
+.academy-prof {
+    text-decoration: none;
+    color: black;
+}
+.zduniak-foto {
+    width: 40%;
+    height: auto;
+    max-width: 600px ;
+    border-radius: 50%;
+}
+
+.history-text {
+    text-align: justify;
+    text-justify: inter-word;
+    widows: 3;
+    orphans: 3;
+}
+@media (min-width: 700px) {
+    .history-text {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+/*O Instrumentach*/
+
+
+.instrument-list li {
+    list-style: none;
+}
+.instrument-list a {
+    text-decoration: none;
+    color: darkblue;
+    font-weight: 600;
+}
+
+.instrument-title {
+    border-color: chocolate;
+}
+
+.instrument-list iframe {
+    display: block;
+    margin: auto;
+    width: 95%;
+    max-width: 560px;
+    height: auto;
+
+}
+
+@media (min-width: 768px) {
+    .instrument-list iframe {
+        min-height: 315px;
+    }
+    }
+
+
+
+/*DO POBRANIA*/
+
+.do-pobrania li {
+    list-style: none;
+    display: block;
+    margin: auto;
+
+}
+
+.do-pobrania a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin:5px;
+    border: 1px solid brown;
+    border-radius: 15px;
+    background-color: lightgoldenrodyellow;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: darkblue;
+    transition: 0.3s;
+    
+}
+
+.do-pobrania a:hover {
+    background-color: bisque;
+
+}
+
+#contact ul {
+    list-style: none;
+    display: block;
+    margin: auto;
+}
+
+#contact a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    background-color: lightgrey;
+    padding: 5px 10px;
+    margin: 8px;
+    border-radius: 10px;
+    border: 1px white solid;
+}
+
+.mapa {
+    display: block;
+    width: 80%;
+    height: auto;
+    min-height: 500px;
+}
+
+@media (min-width: 768px) {
+.card-zduniak {
+    margin: auto;
+    width: 50%;
+}
+       }
+
+
+.qr {
+    max-width: 300px;
+    height: auto;
+}
